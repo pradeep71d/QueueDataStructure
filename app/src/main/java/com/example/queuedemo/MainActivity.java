@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Queue<String> queue = new LinkedList<>();//quue implements linkedlist interface
         queue.add("one");//adding elements in queue
         queue.add("two");
-        queue.add("three");//methods=add,remove,size,peak,poll
+        queue.add("three");//methods=add,remove,size,peak,poll,clear()
         queue.add("four");
         System.out.println("out is=" + queue);
         queue.remove("three");//to remove particular element
